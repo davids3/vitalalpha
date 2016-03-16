@@ -1,0 +1,4 @@
+Load=[image]
+[Splash/MinaryBoochLogo.png]
+[Splash/sfml-logo-big.png]
+[Splash/codeblockslogo.png]

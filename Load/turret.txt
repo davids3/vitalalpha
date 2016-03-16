@@ -1,0 +1,7 @@
+Load=[image]
+[Sprites/Turret/turret1.png]
+[Sprites/Turret/turret2.png]
+
+Load=[coordinate]
+[45, 64]
+[45, 64]

@@ -1,0 +1,13 @@
+Start=[Title]
+
+Load=[Position][Axis][Animation][Align][Font]
+[100,200][2][Fade][None][Fonts/visitor1.ttf]
+
+Load=[Item]
+[New_Game]
+[Load_Game]
+[Options]
+[Credits]
+[Exit]
+
+End=[Title]

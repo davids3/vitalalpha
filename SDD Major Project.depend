@@ -1,0 +1,724 @@
+# depslib dependency file v1.0
+1369587855 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"screenManager.h"
+
+1369588093 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\screenmanager.h
+	<string>
+	<iostream>
+	"gameScreen.h"
+	"splashScreen.h"
+	"titleScreen.h"
+	"levelScreen.h"
+	"fadeAnimation.h"
+	"fileManager.h"
+
+1369588519 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\gamescreen.h
+	<SFML/Graphics.hpp>
+	"inputManager.h"
+	"fileManager.h"
+
+1369614425 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\inputmanager.h
+	<vector>
+	<SFML/Graphics.hpp>
+
+1369615035 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\filemanager.h
+	<vector>
+	<string>
+	<fstream>
+	<algorithm>
+	<iostream>
+	<sstream>
+
+1369608647 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\splashscreen.h
+	"gameScreen.h"
+	"titleScreen.h"
+	"screenManager.h"
+	"fadeAnimation.h"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1369614554 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\titlescreen.h
+	"gameScreen.h"
+	"splashScreen.h"
+	"creditScreen.h"
+	"screenManager.h"
+	"menuManager.h"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1369614245 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\creditscreen.h
+	<SFML/Graphics.hpp>
+	"screenManager.h"
+	"gameScreen.h"
+
+1369614449 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\menumanager.h
+	<SFML/Graphics.hpp>
+	"animation.h"
+	"fadeAnimation.h"
+	"inputManager.h"
+	"fileManager.h"
+
+1369587139 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\animation.h
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+
+1369587453 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\fadeanimation.h
+	"Animation.h"
+
+1369727365 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\levelscreen.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"gameScreen.h"
+	"titleScreen.h"
+	"screenManager.h"
+	"mapManager.h"
+	"playerManager.h"
+	"bullet.h"
+	"turret.h"
+	"healthBar.h"
+	"energyBar.h"
+	"collectable.h"
+	"healthPack.h"
+	"energyPack.h"
+	"door.h"
+
+1369614441 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\mapmanager.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"gameScreen.h"
+	"fileManager.h"
+	"inputManager.h"
+
+1369727293 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\playermanager.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<cmath>
+	<algorithm>
+	"fileManager.h"
+	"inputManager.h"
+	"mapManager.h"
+	"character.h"
+	"bullet.h"
+	"collectable.h"
+	"healthPack.h"
+	"energyPack.h"
+	"turret.h"
+
+1369614193 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\character.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"fileManager.h"
+
+1369614561 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\bullet.h
+	<SFML/Graphics.hpp>
+
+1369614226 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\collectable.h
+	<SFML/Graphics.hpp>
+
+1369614406 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\healthpack.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1369614312 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\energypack.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1369461582 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\turret.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<cmath>
+	<algorithm>
+	"character.h"
+	"bullet.h"
+
+1369614380 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\healthbar.h
+	<SFML/Graphics.hpp>
+	"statusBar.h"
+
+1369614514 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\statusbar.h
+	<SFML/Graphics.hpp>
+
+1369614291 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\energybar.h
+	<SFML/Graphics.hpp>
+	"statusBar.h"
+
+1369614264 c:\users\david.sison\desktop\sdd\sdd project\sdd major project\include\door.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1367110176 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\resource.rc
+
+1369587366 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\animation.cpp
+	"animation.h"
+
+1369614672 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\bullet.cpp
+	"bullet.h"
+
+1369616353 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\character.cpp
+	"character.h"
+
+1369614855 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\collectable.cpp
+	"collectable.h"
+
+1369614930 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\creditscreen.cpp
+	"creditScreen.h"
+
+1369574513 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\door.cpp
+	"door.h"
+
+1369615282 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\energybar.cpp
+	"energyBar.h"
+
+1369554222 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\energypack.cpp
+	"energyPack.h"
+
+1369587694 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\fadeanimation.cpp
+	"fadeAnimation.h"
+
+1369615242 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\filemanager.cpp
+	"fileManager.h"
+
+1369588513 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\gamescreen.cpp
+	"gameScreen.h"
+
+1369616356 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\healthbar.cpp
+	"healthBar.h"
+
+1369551124 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\healthpack.cpp
+	"healthPack.h"
+
+1369615362 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\inputmanager.cpp
+	"inputManager.h"
+
+1369729163 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\levelscreen.cpp
+	"levelScreen.h"
+
+1369584474 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\menumanager.cpp
+	"menuManager.h"
+
+1369609945 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\screenmanager.cpp
+	"screenManager.h"
+
+1369610044 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\splashscreen.cpp
+	"splashScreen.h"
+
+1369518285 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\statusbar.cpp
+	"statusBar.h"
+
+1369583852 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\titlescreen.cpp
+	"titleScreen.h"
+
+1369582433 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\turret.cpp
+	"turret.h"
+
+1372112777 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\mapmanager.cpp
+	"mapManager.h"
+
+1372113178 source:c:\users\david.sison\desktop\sdd\sdd project\sdd major project\src\playermanager.cpp
+	"playerManager.h"
+
+1369587855 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"screenManager.h"
+
+1369588093 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\screenmanager.h
+	<string>
+	<iostream>
+	"gameScreen.h"
+	"splashScreen.h"
+	"titleScreen.h"
+	"levelScreen.h"
+	"fadeAnimation.h"
+	"fileManager.h"
+
+1369588519 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\gamescreen.h
+	<SFML/Graphics.hpp>
+	"inputManager.h"
+	"fileManager.h"
+
+1369614425 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\inputmanager.h
+	<vector>
+	<SFML/Graphics.hpp>
+
+1369615035 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\filemanager.h
+	<vector>
+	<string>
+	<fstream>
+	<algorithm>
+	<iostream>
+	<sstream>
+
+1369608647 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\splashscreen.h
+	"gameScreen.h"
+	"titleScreen.h"
+	"screenManager.h"
+	"fadeAnimation.h"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1369614554 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\titlescreen.h
+	"gameScreen.h"
+	"splashScreen.h"
+	"creditScreen.h"
+	"screenManager.h"
+	"menuManager.h"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1369614245 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\creditscreen.h
+	<SFML/Graphics.hpp>
+	"screenManager.h"
+	"gameScreen.h"
+
+1369614449 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\menumanager.h
+	<SFML/Graphics.hpp>
+	"animation.h"
+	"fadeAnimation.h"
+	"inputManager.h"
+	"fileManager.h"
+
+1369587139 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\animation.h
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+
+1369587453 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\fadeanimation.h
+	"Animation.h"
+
+1369727365 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\levelscreen.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"gameScreen.h"
+	"titleScreen.h"
+	"screenManager.h"
+	"mapManager.h"
+	"playerManager.h"
+	"bullet.h"
+	"turret.h"
+	"healthBar.h"
+	"energyBar.h"
+	"collectable.h"
+	"healthPack.h"
+	"energyPack.h"
+	"door.h"
+
+1369614441 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\mapmanager.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"gameScreen.h"
+	"fileManager.h"
+	"inputManager.h"
+
+1369727293 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\playermanager.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<cmath>
+	<algorithm>
+	"fileManager.h"
+	"inputManager.h"
+	"mapManager.h"
+	"character.h"
+	"bullet.h"
+	"collectable.h"
+	"healthPack.h"
+	"energyPack.h"
+	"turret.h"
+
+1369614193 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\character.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"fileManager.h"
+
+1369614561 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\bullet.h
+	<SFML/Graphics.hpp>
+
+1369614226 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\collectable.h
+	<SFML/Graphics.hpp>
+
+1369614406 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\healthpack.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1369614312 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\energypack.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1369461582 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\turret.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<cmath>
+	<algorithm>
+	"character.h"
+	"bullet.h"
+
+1369614380 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\healthbar.h
+	<SFML/Graphics.hpp>
+	"statusBar.h"
+
+1369614514 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\statusbar.h
+	<SFML/Graphics.hpp>
+
+1369614291 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\energybar.h
+	<SFML/Graphics.hpp>
+	"statusBar.h"
+
+1369614264 c:\users\administrator\desktop\sdd\sdd project\sdd major project\include\door.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1367110176 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\resource.rc
+
+1369587366 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\animation.cpp
+	"animation.h"
+
+1369614672 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\bullet.cpp
+	"bullet.h"
+
+1369616353 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\character.cpp
+	"character.h"
+
+1369614855 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\collectable.cpp
+	"collectable.h"
+
+1369614930 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\creditscreen.cpp
+	"creditScreen.h"
+
+1369574513 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\door.cpp
+	"door.h"
+
+1369615282 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\energybar.cpp
+	"energyBar.h"
+
+1369554222 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\energypack.cpp
+	"energyPack.h"
+
+1369587694 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\fadeanimation.cpp
+	"fadeAnimation.h"
+
+1369615242 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\filemanager.cpp
+	"fileManager.h"
+
+1369588513 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\gamescreen.cpp
+	"gameScreen.h"
+
+1369616356 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\healthbar.cpp
+	"healthBar.h"
+
+1369551124 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\healthpack.cpp
+	"healthPack.h"
+
+1369615362 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\inputmanager.cpp
+	"inputManager.h"
+
+1369729163 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\levelscreen.cpp
+	"levelScreen.h"
+
+1372112777 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\mapmanager.cpp
+	"mapManager.h"
+
+1369584474 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\menumanager.cpp
+	"menuManager.h"
+
+1372113401 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\playermanager.cpp
+	"playerManager.h"
+
+1369609945 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\screenmanager.cpp
+	"screenManager.h"
+
+1369610044 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\splashscreen.cpp
+	"splashScreen.h"
+
+1369518285 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\statusbar.cpp
+	"statusBar.h"
+
+1369583852 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\titlescreen.cpp
+	"titleScreen.h"
+
+1369582433 source:c:\users\administrator\desktop\sdd\sdd project\sdd major project\src\turret.cpp
+	"turret.h"
+
+1369587855 source:c:\users\david\dropbox\documents\sdd major project\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"screenManager.h"
+
+1369588093 c:\users\david\dropbox\documents\sdd major project\include\screenmanager.h
+	<string>
+	<iostream>
+	"gameScreen.h"
+	"splashScreen.h"
+	"titleScreen.h"
+	"levelScreen.h"
+	"fadeAnimation.h"
+	"fileManager.h"
+
+1369588519 c:\users\david\dropbox\documents\sdd major project\include\gamescreen.h
+	<SFML/Graphics.hpp>
+	"inputManager.h"
+	"fileManager.h"
+
+1369614425 c:\users\david\dropbox\documents\sdd major project\include\inputmanager.h
+	<vector>
+	<SFML/Graphics.hpp>
+
+1369615035 c:\users\david\dropbox\documents\sdd major project\include\filemanager.h
+	<vector>
+	<string>
+	<fstream>
+	<algorithm>
+	<iostream>
+	<sstream>
+
+1369608647 c:\users\david\dropbox\documents\sdd major project\include\splashscreen.h
+	"gameScreen.h"
+	"titleScreen.h"
+	"screenManager.h"
+	"fadeAnimation.h"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1369614554 c:\users\david\dropbox\documents\sdd major project\include\titlescreen.h
+	"gameScreen.h"
+	"splashScreen.h"
+	"creditScreen.h"
+	"screenManager.h"
+	"menuManager.h"
+	<iostream>
+	<SFML/Graphics.hpp>
+
+1369614245 c:\users\david\dropbox\documents\sdd major project\include\creditscreen.h
+	<SFML/Graphics.hpp>
+	"screenManager.h"
+	"gameScreen.h"
+
+1369614449 c:\users\david\dropbox\documents\sdd major project\include\menumanager.h
+	<SFML/Graphics.hpp>
+	"animation.h"
+	"fadeAnimation.h"
+	"inputManager.h"
+	"fileManager.h"
+
+1369587139 c:\users\david\dropbox\documents\sdd major project\include\animation.h
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+
+1369587453 c:\users\david\dropbox\documents\sdd major project\include\fadeanimation.h
+	"Animation.h"
+
+1369727365 c:\users\david\dropbox\documents\sdd major project\include\levelscreen.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"gameScreen.h"
+	"titleScreen.h"
+	"screenManager.h"
+	"mapManager.h"
+	"playerManager.h"
+	"bullet.h"
+	"turret.h"
+	"healthBar.h"
+	"energyBar.h"
+	"collectable.h"
+	"healthPack.h"
+	"energyPack.h"
+	"door.h"
+
+1369614441 c:\users\david\dropbox\documents\sdd major project\include\mapmanager.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"gameScreen.h"
+	"fileManager.h"
+	"inputManager.h"
+
+1369727293 c:\users\david\dropbox\documents\sdd major project\include\playermanager.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<cmath>
+	<algorithm>
+	"fileManager.h"
+	"inputManager.h"
+	"mapManager.h"
+	"character.h"
+	"bullet.h"
+	"collectable.h"
+	"healthPack.h"
+	"energyPack.h"
+	"turret.h"
+
+1369614193 c:\users\david\dropbox\documents\sdd major project\include\character.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	"fileManager.h"
+
+1369614561 c:\users\david\dropbox\documents\sdd major project\include\bullet.h
+	<SFML/Graphics.hpp>
+
+1369614226 c:\users\david\dropbox\documents\sdd major project\include\collectable.h
+	<SFML/Graphics.hpp>
+
+1369614406 c:\users\david\dropbox\documents\sdd major project\include\healthpack.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1369614312 c:\users\david\dropbox\documents\sdd major project\include\energypack.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1369461582 c:\users\david\dropbox\documents\sdd major project\include\turret.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<cmath>
+	<algorithm>
+	"character.h"
+	"bullet.h"
+
+1369614380 c:\users\david\dropbox\documents\sdd major project\include\healthbar.h
+	<SFML/Graphics.hpp>
+	"statusBar.h"
+
+1369614514 c:\users\david\dropbox\documents\sdd major project\include\statusbar.h
+	<SFML/Graphics.hpp>
+
+1369614291 c:\users\david\dropbox\documents\sdd major project\include\energybar.h
+	<SFML/Graphics.hpp>
+	"statusBar.h"
+
+1369614264 c:\users\david\dropbox\documents\sdd major project\include\door.h
+	<SFML/Graphics.hpp>
+	"collectable.h"
+
+1367110176 source:c:\users\david\dropbox\documents\sdd major project\resource.rc
+
+1369587366 source:c:\users\david\dropbox\documents\sdd major project\src\animation.cpp
+	"animation.h"
+
+1369614672 source:c:\users\david\dropbox\documents\sdd major project\src\bullet.cpp
+	"bullet.h"
+
+1369616353 source:c:\users\david\dropbox\documents\sdd major project\src\character.cpp
+	"character.h"
+
+1369614855 source:c:\users\david\dropbox\documents\sdd major project\src\collectable.cpp
+	"collectable.h"
+
+1369614930 source:c:\users\david\dropbox\documents\sdd major project\src\creditscreen.cpp
+	"creditScreen.h"
+
+1369574513 source:c:\users\david\dropbox\documents\sdd major project\src\door.cpp
+	"door.h"
+
+1369615282 source:c:\users\david\dropbox\documents\sdd major project\src\energybar.cpp
+	"energyBar.h"
+
+1369554222 source:c:\users\david\dropbox\documents\sdd major project\src\energypack.cpp
+	"energyPack.h"
+
+1369587694 source:c:\users\david\dropbox\documents\sdd major project\src\fadeanimation.cpp
+	"fadeAnimation.h"
+
+1369615242 source:c:\users\david\dropbox\documents\sdd major project\src\filemanager.cpp
+	"fileManager.h"
+
+1369588513 source:c:\users\david\dropbox\documents\sdd major project\src\gamescreen.cpp
+	"gameScreen.h"
+
+1369616356 source:c:\users\david\dropbox\documents\sdd major project\src\healthbar.cpp
+	"healthBar.h"
+
+1369551124 source:c:\users\david\dropbox\documents\sdd major project\src\healthpack.cpp
+	"healthPack.h"
+
+1369615362 source:c:\users\david\dropbox\documents\sdd major project\src\inputmanager.cpp
+	"inputManager.h"
+
+1369729163 source:c:\users\david\dropbox\documents\sdd major project\src\levelscreen.cpp
+	"levelScreen.h"
+
+1372112777 source:c:\users\david\dropbox\documents\sdd major project\src\mapmanager.cpp
+	"mapManager.h"
+
+1369584474 source:c:\users\david\dropbox\documents\sdd major project\src\menumanager.cpp
+	"menuManager.h"
+
+1372113401 source:c:\users\david\dropbox\documents\sdd major project\src\playermanager.cpp
+	"playerManager.h"
+
+1369609945 source:c:\users\david\dropbox\documents\sdd major project\src\screenmanager.cpp
+	"screenManager.h"
+
+1369610044 source:c:\users\david\dropbox\documents\sdd major project\src\splashscreen.cpp
+	"splashScreen.h"
+
+1369518285 source:c:\users\david\dropbox\documents\sdd major project\src\statusbar.cpp
+	"statusBar.h"
+
+1369583852 source:c:\users\david\dropbox\documents\sdd major project\src\titlescreen.cpp
+	"titleScreen.h"
+
+1369582433 source:c:\users\david\dropbox\documents\sdd major project\src\turret.cpp
+	"turret.h"
+

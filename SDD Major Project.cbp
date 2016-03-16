@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDD Major Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDD Major Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add option="-lsfml-graphics-s-d" />
+					<Add option="-lsfml-window-s-d" />
+					<Add option="-lsfml-system-s-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDD Major Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/animation.h" />
+		<Unit filename="include/bullet.h" />
+		<Unit filename="include/character.h" />
+		<Unit filename="include/collectable.h" />
+		<Unit filename="include/creditScreen.h" />
+		<Unit filename="include/door.h" />
+		<Unit filename="include/energyBar.h" />
+		<Unit filename="include/energyPack.h" />
+		<Unit filename="include/fadeAnimation.h" />
+		<Unit filename="include/fileManager.h" />
+		<Unit filename="include/gameScreen.h" />
+		<Unit filename="include/healthBar.h" />
+		<Unit filename="include/healthPack.h" />
+		<Unit filename="include/inputManager.h" />
+		<Unit filename="include/levelScreen.h" />
+		<Unit filename="include/mapManager.h" />
+		<Unit filename="include/menuManager.h" />
+		<Unit filename="include/playerManager.h" />
+		<Unit filename="include/screenManager.h" />
+		<Unit filename="include/splashScreen.h" />
+		<Unit filename="include/statusBar.h" />
+		<Unit filename="include/titleScreen.h" />
+		<Unit filename="include/turret.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src/animation.cpp" />
+		<Unit filename="src/bullet.cpp" />
+		<Unit filename="src/character.cpp" />
+		<Unit filename="src/collectable.cpp" />
+		<Unit filename="src/creditScreen.cpp" />
+		<Unit filename="src/door.cpp" />
+		<Unit filename="src/energyBar.cpp" />
+		<Unit filename="src/energyPack.cpp" />
+		<Unit filename="src/fadeAnimation.cpp" />
+		<Unit filename="src/fileManager.cpp" />
+		<Unit filename="src/gameScreen.cpp" />
+		<Unit filename="src/healthBar.cpp" />
+		<Unit filename="src/healthPack.cpp" />
+		<Unit filename="src/inputManager.cpp" />
+		<Unit filename="src/levelScreen.cpp" />
+		<Unit filename="src/mapManager.cpp" />
+		<Unit filename="src/menuManager.cpp" />
+		<Unit filename="src/playerManager.cpp" />
+		<Unit filename="src/screenManager.cpp" />
+		<Unit filename="src/splashScreen.cpp" />
+		<Unit filename="src/statusBar.cpp" />
+		<Unit filename="src/titleScreen.cpp" />
+		<Unit filename="src/turret.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
